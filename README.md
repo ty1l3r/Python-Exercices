@@ -85,3 +85,28 @@ Poste: "Ingénieur"
 Appelle la méthode afficher_details sur l'instance de la classe Employe pour afficher les détails complets de l'employé.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Considère les deux classes suivantes :
+
+La classe Forme avec un attribut :
+
+couleur (chaîne de caractères) : la couleur de la forme.
+La classe Cercle qui hérite de Forme et ajoute un attribut supplémentaire :
+
+rayon (nombre flottant) : le rayon du cercle.
+La classe Carre qui hérite également de Forme et ajoute un attribut supplémentaire :
+
+cote (nombre flottant) : la longueur du côté du carré.
+Ajoute une méthode afficher_details à la classe Forme qui affiche la couleur de la forme.
+
+Surcharge la méthode afficher_details dans les classes Cercle et Carre pour inclure également le rayon/côté respectif lors de l'affichage.
+
+Crée une instance de la classe Cercle avec les détails suivants :
+
+Couleur: "Rouge"
+Rayon: 5.0
+Crée une instance de la classe Carre avec les détails suivants :
+
+Couleur: "Bleu"
+Côté: 4.0
+Appelle la méthode afficher_details sur les instances de Cercle et Carre pour afficher les détails complets de chaque forme.
