@@ -112,3 +112,74 @@ Crée une instance de la classe Carre avec les détails suivants :
 Couleur: "Bleu"
 Côté: 4.0
 Appelle la méthode afficher_details sur les instances de Cercle et Carre pour afficher les détails complets de chaque forme.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exercice 7
+
+Considère les deux classes suivantes :
+
+La classe Animal avec un attribut :
+espece (chaîne de caractères) : l'espèce de l'animal.
+
+La classe Oiseau qui hérite de Animal et ajoute un attribut supplémentaire :
+envergure (nombre flottant) : la longueur de l'envergure de l'oiseau.
+
+La classe Chat qui hérite également de Animal et ajoute un attribut supplémentaire :
+couleur (chaîne de caractères) : la couleur du pelage du chat.
+
+Ajoute une méthode afficher_details à la classe Animal qui affiche l'espèce de l'animal.
+
+Surcharge la méthode afficher_details dans les classes Oiseau et Chat pour inclure également l'envergure ou la couleur lors de l'affichage.
+
+Crée une instance de la classe Oiseau avec les détails suivants :
+
+Espèce: "Aigle"
+Envergure: 2.5 mètres
+Crée une instance de la classe Chat avec les détails suivants :
+
+Espèce: "Chat domestique"
+Couleur: "Noir et blanc"
+
+Appelle la méthode afficher_details sur les instances de Oiseau et Chat pour afficher les détails complets de chaque animal.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exercice 8 
+
+**Exercice sur la gestion d'une vidéothèque :**
+
+1. Crée une classe `Film` avec les attributs suivants :
+   - `titre` (chaîne de caractères) : le titre du film.
+   - `realisateur` (chaîne de caractères) : le réalisateur du film.
+   - `annee_sortie` (entier) : l'année de sortie du film.
+   - `genre` (chaîne de caractères) : le genre du film.
+   - `duree` (entier) : la durée du film en minutes.
+   - `disponible` (booléen) : indique si le film est disponible (True) ou emprunté (False).
+
+2. Ajoute une méthode `afficher_details` à la classe `Film` qui affiche les détails du film (titre, réalisateur, année de sortie, genre, durée et disponibilité).
+
+3. Crée une classe `Videoclub` qui contiendra un attribut :
+   - `liste_films` (liste d'instances de type `Film`) : la liste des films dans le vidéoclub.
+
+4. Définis dans la classe `Videoclub` une méthode `ajouter_film` qui ajoutera un objet de type `Film` à la liste des films du vidéoclub.
+
+5. Crée une instance de la classe `Film` avec les détails suivants :
+   - Titre: "Inception"
+   - Réalisateur: "Christopher Nolan"
+   - Année de sortie: 2010
+   - Genre: "Science-fiction"
+   - Durée: 148 minutes
+   - Disponible: True
+
+6. Crée une instance de la classe `Film` avec les détails suivants :
+   - Titre: "La La Land"
+   - Réalisateur: "Damien Chazelle"
+   - Année de sortie: 2016
+   - Genre: "Comédie musicale"
+   - Durée: 128 minutes
+   - Disponible: False
+
+7. Ajoute ces deux films à la liste des films dans une instance de la classe `Videoclub`.
+
+8. Affiche les détails de tous les films dans le vidéoclub à l'aide de la méthode `afficher_details`.
